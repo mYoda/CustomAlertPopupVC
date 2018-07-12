@@ -1,5 +1,5 @@
 # CustomAlertPopupVC
-<img align="left" width="200" src="/ReadmeSources/CustomAlertPopup.gif" />
+<img align="left" width="200" src="/ReadmeSources/CustomAlertPopup3.gif" />
 <img align="right"  width="200" src="/ReadmeSources/2.png" />
 Custom popup like a UIAlertController with buttons and executable actions. Great animation used, full screen. Easy to use.
 
