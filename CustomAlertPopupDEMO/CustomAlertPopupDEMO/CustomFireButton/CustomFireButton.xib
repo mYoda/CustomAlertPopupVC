@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomFireButton" customModule="CustomFireButtonDEMO" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="4m1-gR-vU8" id="rPY-4q-JbG"/>
+                <outlet property="buttonView" destination="hgb-BF-hh2" id="k9Q-Uq-JLu"/>
+                <outlet property="buttonViewBottomConstraint" destination="Yxh-gN-sUy" id="6NW-rC-dQo"/>
+                <outlet property="buttonViewLeadingConstraint" destination="mc5-4D-m52" id="BB8-ii-Ciw"/>
+                <outlet property="buttonViewTopConstraint" destination="Qf9-4N-GT7" id="MIW-14-0Zi"/>
+                <outlet property="buttonViewTrailingConstraint" destination="mXL-Xa-AZD" id="YyW-2j-5U5"/>
+                <outlet property="shadowView" destination="9f7-NK-CRQ" id="pSQ-VJ-pwm"/>
+                <outlet property="textLabelButton" destination="tH9-f8-mpb" id="mTv-Wi-6xB"/>
+                <outlet property="view" destination="iN0-l3-epB" id="KtX-1g-E9e"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="435" height="94"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4m1-gR-vU8" customClass="UIControl">
+                    <rect key="frame" x="0.0" y="0.0" width="435" height="94"/>
+                    <subviews>
+                        <view clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hgb-BF-hh2">
+                            <rect key="frame" x="10" y="10" width="415" height="74"/>
+                            <subviews>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tH9-f8-mpb">
+                                    <rect key="frame" x="0.0" y="0.0" width="415" height="74"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                    <state key="normal" title="Button"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.69019607843137254" blue="0.69019607843137254" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="tH9-f8-mpb" firstAttribute="top" secondItem="hgb-BF-hh2" secondAttribute="top" id="KLl-Vm-DcB"/>
+                                <constraint firstAttribute="bottom" secondItem="tH9-f8-mpb" secondAttribute="bottom" id="Rsm-2M-Qau"/>
+                                <constraint firstAttribute="trailing" secondItem="tH9-f8-mpb" secondAttribute="trailing" id="g3h-Ap-kQV"/>
+                                <constraint firstItem="tH9-f8-mpb" firstAttribute="leading" secondItem="hgb-BF-hh2" secondAttribute="leading" id="keH-I4-qzP"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9f7-NK-CRQ">
+                            <rect key="frame" x="10" y="10" width="415" height="74"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="size" keyPath="keyPath">
+                                    <size key="value" width="0.0" height="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="9f7-NK-CRQ" firstAttribute="centerY" secondItem="hgb-BF-hh2" secondAttribute="centerY" id="F0t-V7-yIY"/>
+                        <constraint firstItem="hgb-BF-hh2" firstAttribute="top" secondItem="4m1-gR-vU8" secondAttribute="top" constant="10" id="Qf9-4N-GT7"/>
+                        <constraint firstItem="9f7-NK-CRQ" firstAttribute="height" secondItem="hgb-BF-hh2" secondAttribute="height" id="X8D-f2-vWY"/>
+                        <constraint firstAttribute="bottom" secondItem="hgb-BF-hh2" secondAttribute="bottom" constant="10" id="Yxh-gN-sUy"/>
+                        <constraint firstItem="9f7-NK-CRQ" firstAttribute="width" secondItem="hgb-BF-hh2" secondAttribute="width" id="lPd-FI-wfk"/>
+                        <constraint firstAttribute="trailing" secondItem="hgb-BF-hh2" secondAttribute="trailing" constant="10" id="mXL-Xa-AZD"/>
+                        <constraint firstItem="hgb-BF-hh2" firstAttribute="leading" secondItem="4m1-gR-vU8" secondAttribute="leading" constant="10" id="mc5-4D-m52"/>
+                        <constraint firstItem="9f7-NK-CRQ" firstAttribute="centerX" secondItem="hgb-BF-hh2" secondAttribute="centerX" id="x2n-vb-nZD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="4m1-gR-vU8" secondAttribute="bottom" id="64i-Bc-4ak"/>
+                <constraint firstItem="4m1-gR-vU8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="INQ-UU-UBL"/>
+                <constraint firstItem="4m1-gR-vU8" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="VrG-bs-13O"/>
+                <constraint firstItem="4m1-gR-vU8" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="g1B-9j-nrU"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="46.5" y="-281"/>
+        </view>
+    </objects>
+</document>
