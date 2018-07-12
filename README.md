@@ -1,6 +1,7 @@
 # CustomAlertPopupVC
-<img  width="200" src="/ReadmeSources/1.png" />
-Custom popup like a UIAlert with buttons and executable actions. Great animation used, full screen. Easy to use.
+<img align="left" width="200" src="/ReadmeSources/1.png" />
+<img align="right"  width="200" src="/ReadmeSources/2.png" />
+Custom popup like a UIAlertController with buttons and executable actions. Great animation used, full screen. Easy to use.
 
 ### Installation
 
@@ -8,12 +9,13 @@ Clone or Download a **CustomAlertPopupDEMO** project.
 Copy and Paste folder with name **'CustomPopupVC'** from the DEMO project to your project.
 Now you can use CustomPopupViewController.
 
-<img width="450" src="/ReadmeSources/4.png" />
+<img width="400" src="/ReadmeSources/4.png" />
 
 ## NOTICE!
 In the **CustomAlertPopupDEMO** project we are using our custom buttons named **CustomFireButton**.
-If you want use the same buttons - copy and paste folder with name **'CustomFireButton'** from the DEMO project to your project.
+If you want to use the same buttons - copy and paste folder with name **'CustomFireButton'** from the DEMO project to your project.
 <img width="200" src="/ReadmeSources/5.png" />
+
 More details about [**CustomFireButton**](https://github.com/mYoda/CustomFireButton/).
 
 
@@ -28,7 +30,7 @@ More details about [**CustomFireButton**](https://github.com/mYoda/CustomFireBut
 
 ### Usage
 
-<img width="200" src="/ReadmeSources/3.png" />
+<img width="800" src="/ReadmeSources/3.png" />
 
 
   
